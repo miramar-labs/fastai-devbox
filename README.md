@@ -21,17 +21,17 @@ STEP 4
 
 bring up the devbox container:
     
-    docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work fastai/fastai-devbox:v1.0
+    docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work fastai/fastai-devbox:v1.0
     
 and then navigate to JupyterLab in your browser:
     
-    http://localhost:10000
+    http://localhost:8888?token=<see output of docker run for token>
     
 Note: the local folder you run it from will be mounted inside your JupyterLab container at /home/jovyan/work, which is handy for sharing files between host and container.
 
 STEP 5:
     
-Open up a Console window from JupyterLab and set up an SSH key:
+Open up a Terminal window from JupyterLab and set up an SSH key:
     
         ssh-keygen
         

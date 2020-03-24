@@ -8,6 +8,7 @@ USER root
 
 RUN conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
+# add this back in later if needed:
 #RUN conda uninstall --force jpeg libtiff -y
 #RUN conda install -c conda-forge libjpeg-turbo pillow==6.0.0
 #RUN CC="cc -mavx2" pip install --no-cache-dir -U --force-reinstall --no-binary :all: --compile pillow-simd
