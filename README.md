@@ -55,6 +55,7 @@ Then copy the public key (.ssh/id_rsa.pub) up to your GitHub/Settings/SSH and GP
         git clone git@github.com:fastai/fastbook.git
     
 REFERENCES:
+
     JupyterLab: https://jupyterlab.readthedocs.io/en/stable/
     Docker Stacks: https://github.com/jupyter/docker-stacks
     Dockerized NVIDIA/CUDA: https://github.com/NVIDIA/nvidia-docker/wiki/CUDA
