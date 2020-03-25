@@ -56,6 +56,7 @@ Then copy the public key (.ssh/id_rsa.pub) up to your GitHub/Settings/SSH and GP
     
 REFERENCES:
 
+    Fast.ai: https://www.fast.ai/
     JupyterLab: https://jupyterlab.readthedocs.io/en/stable/
     Docker Stacks: https://github.com/jupyter/docker-stacks
     Dockerized NVIDIA/CUDA: https://github.com/NVIDIA/nvidia-docker/wiki/CUDA
