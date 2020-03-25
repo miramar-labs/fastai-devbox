@@ -18,4 +18,7 @@ RUN pip install fastai2
 RUN sudo apt-get -y update
 RUN sudo apt install -y python-pydot python-pydot-ng graphviz
 
+RUN conda install pyarrow
+RUN pip install pydicom kornia opencv-python scikit-image
+
 USER $NB_UID
