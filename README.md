@@ -15,7 +15,7 @@ STEP 3
 
     cd fastai-devbox
     bash make-fastai-devbox.sh
-the build might take a while but it is a one-time step. Once the build script is finished you will be asked if you want to clean up intermediate files - respond with Y if you want to save on disk space
+the build might take a while but it is a one-time step. Once the build is finished you will be asked if you want to clean up intermediate files - respond with Y if you want to save on disk space
 
 STEP 4
 
