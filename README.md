@@ -1,5 +1,5 @@
 ## fast.ai GPU DevBox
-If you have some hardware with an NVIDIA GPU lying around and want to make your own GPU development box for fast.ai, then this is one way you can do it, without getting into all the nasty details of installing CUDA drivers and python packages.
+If you have some hardware with an NVIDIA GPU laying around and want to make your own GPU development box for fast.ai, then this is one way you can do it, without getting into all the nasty details of installing CUDA drivers and python packages.
 
 STEP 1
 
