@@ -1,5 +1,5 @@
 ## fast.ai GPU DevBox
-If you have some hardware with an NVIDIA GPU lying around and want to make your own GPU development box for fast.ai, then this is one way you can do it, without getting into all the nasty details of installing CUDA drivers and python packages.
+If you have some hardware with an NVIDIA GPU laying around and want to make your own GPU development box for fast.ai, then this is one way you can do it, without getting into all the nasty details of installing CUDA drivers and python packages.
 
 STEP 1
 
@@ -56,5 +56,7 @@ Then copy the public key (.ssh/id_rsa.pub) up to your GitHub/Settings/SSH and GP
     
 REFERENCES:
 
+    Fast.ai: https://www.fast.ai/
+    JupyterLab: https://jupyterlab.readthedocs.io/en/stable/
     Docker Stacks: https://github.com/jupyter/docker-stacks
     Dockerized NVIDIA/CUDA: https://github.com/NVIDIA/nvidia-docker/wiki/CUDA
