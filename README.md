@@ -38,8 +38,8 @@ Open up a Terminal window from JupyterLab and set up an SSH key:
 Some minimal git config:
 
         # git config
-        git config --global user.email "aaron@aaroncody.com"        <--- your email here
-        git config --global user.name "Aaron Cody"                  <-- your name here
+        git config --global user.email "me@foo.com"        <--- your email here
+        git config --global user.name "John Smith"                  <-- your name here
         git config --global push.default simple
         git config --global url."git@github.com:".insteadOf "https://github.com/"
         
