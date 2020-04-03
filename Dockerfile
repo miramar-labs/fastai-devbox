@@ -22,7 +22,7 @@ RUN conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 #RUN CC="cc -mavx2" pip install --no-cache-dir -U --force-reinstall --no-binary :all: --compile pillow-simd
 
 # install fastai
-RUN pip install fastai2 fastcore
+RUN pip install fastai2
 
 RUN sudo apt install -y python-pydot python-pydot-ng graphviz
 
